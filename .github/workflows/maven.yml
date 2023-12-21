@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: cmakkaya/my-github-action-app
+        image: sabbu04/github-actions-1-article
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
